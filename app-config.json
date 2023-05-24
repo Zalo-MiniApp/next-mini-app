@@ -1,0 +1,34 @@
+{
+  "app": {
+    "title": "Next Mini App",
+    "headerTitle": "Next Mini App",
+    "headerColor": "#ffffff",
+    "textColor": "black",
+    "statusBarColor": "#ffffff",
+    "leftButton": "back",
+    "statusBar": "normal",
+    "actionBarHidden": false,
+    "hideAndroidBottomNavigationBar": false,
+    "hideIOSSafeAreaBottom": true
+  },
+  "debug": false,
+  "listCSS": ["cdn.272eaf944eac6dc864d3.css"],
+  "listSyncJS": [
+    "inline.js",
+    "cdn.polyfills-016998d612b101b8b0fc.js",
+    "cdn.main-6395f275cec6c9e094fb.js",
+    "cdn.webpack-95c2b224bccf352ee870.js",
+    "cdn.framework.0ba53a8de0b1a5f4cfd1.js",
+    "cdn.ecd9d9f4.f09537b33ae31590b36a.js",
+    "cdn.commons.d46058becc6796738525.js",
+    "cdn.eac7291e3c1fb23fde2337b220bcc28d4f448999.1d0f4252bd0219a1e7a9.js",
+    "cdn._app-cd344f4a2eca6887f1a1.js",
+    "cdn.1bfc9850.c33c9d75d08f4eeba297.js",
+    "cdn.899738523010801b12077700f6585aacbd232bd1.07474c4b4962a3287b87.js",
+    "cdn.55b53f0e4b89b465614e8268257feb9e643f5d96.f034028aa5f3c7c9cde3.js",
+    "cdn.index-f9196aa9894be7fcb3d7.js",
+    "cdn._buildManifest.js",
+    "cdn._ssgManifest.js"
+  ],
+  "listAsyncJS": []
+}
