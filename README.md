@@ -1,4 +1,62 @@
-## Jamstack ECommerce Next
+## Next.js => Zalo Mini App conversion demo
+
+**Important**: please use Node.js 16:
+```
+npm i -g n
+n 16
+```
+
+### Getting started
+
+1. Clone the project
+
+```sh
+$ git clone https://github.com/Zalo-MiniApp/next-mini-app.git
+```
+
+2. Install the dependencies:
+
+```sh
+$ yarn
+
+# or
+
+$ pnpm import
+$ rm yarn.lock
+$ pnpm i
+```
+
+3. Run the project
+
+```sh
+$ npm run dev
+
+# or to build
+
+$ npm run build
+```
+
+## Deploy to Zalo Mini App
+
+1. Build the project
+
+```sh
+$ npm run build
+```
+
+2. Install Zalo Mini App CLI:
+
+```sh
+$ npm install -g zmp-cli
+```
+
+3. Deploy:
+
+```sh
+$ zmp deploy
+```
+
+### About Jamstack ECommerce Next
 
 Jamstack ECommerce Next provides a way to quickly get up and running with a fully configurable ECommerce site using Next.js.
 
@@ -26,48 +84,6 @@ Click [here](https://www.jamstackecommerce.dev/) to see a live preview.
 ![Admin panel](example-images/5.png)
 </details>
 
-### Getting started
-
-1. Clone the project
-
-```sh
-$ git clone https://github.com/jamstack-cms/jamstack-ecommerce.git
-```
-
-2. Install the dependencies:
-
-```sh
-$ yarn
-
-# or
-
-$ npm install
-```
-
-3. Run the project
-
-```sh
-$ npm run dev
-
-# or to build
-
-$ npm run build
-```
-
-## Deploy to Vercel
-
-Use the [Vercel CLI](https://vercel.com/download)
-
-```sh
-vercel
-```
-
-## Deploy to AWS
-
-```sh
-npx serverless
-```
-
 ## About the project
 
 ### Tailwind
@@ -78,12 +94,12 @@ This project is styled using Tailwind. To learn more how this works, check out t
 
 The main files, components, and images you may want to change / modify are:
 
-__Logo__ - public/logo.png   
-__Button, ListItem, etc..__ - components   
-__Form components__ - components/formComponents   
-__Context (state)__ - context/mainContext.js   
-__Pages (admin, cart, checkout, index)__ - pages   
-__Templates (category view, single item view, inventory views)__ - templates   
+__Logo__ - public/logo.png
+__Button, ListItem, etc..__ - components
+__Form components__ - components/formComponents
+__Context (state)__ - context/mainContext.js
+__Pages (admin, cart, checkout, index)__ - pages
+__Templates (category view, single item view, inventory views)__ - templates
 
 ### How it works
 
